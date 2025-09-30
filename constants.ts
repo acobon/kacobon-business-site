@@ -13,7 +13,7 @@ export const NAV_LINKS = [
       { name: 'Digital Marketing', path: '/services/digital-marketing' },
     ]
   },
-  { name: 'Contact', path: '/#contact' }
+  { name: 'Contact', path: '/contact' }
 ];
 
 export const SERVICES: Service[] = [

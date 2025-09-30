@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ServicePage from './pages/ServicePage';
+import ContactPage from './pages/ContactPage';
 import { SERVICES } from './constants';
 
 const ScrollToTop = () => {
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
             {SERVICES.map(service => (
               <Route 
                 key={service.path} 
